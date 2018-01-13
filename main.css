@@ -1,0 +1,328 @@
+@font-face{
+/*Надо подключить для ios */
+font-family: chinacyr;
+src: url(chinacyr.ttf);
+font-weight: normal;
+font-style: normal;
+
+}
+.main {
+	height: 250px; width: 800px;
+	display:inline-table;
+	font-size:40px;
+	text-indent:375px;
+	font-family: chinacyr;
+}
+.par {
+	display:table-cell;
+	vertical-align:bottom;
+}
+.main2 {
+	height: 0px; width: 800px;
+	display:inline-table;
+	font-size:30px;
+	text-indent:475px;
+	font-family: chinacyr;
+}
+.par2 {
+	display:table-cell;
+	vertical-align:top;
+}
+.main3 {
+	height: 0px; width: 600px;
+	display:inline-table;
+	font-size:20px;
+	white-space:pre;
+	font-family: TimesNewRoman;
+}
+
+.prob {
+	text-indent:375px;
+}
+.logo {
+	text-indent:00px;
+	position: absolute;  /* подробнее про position: absolute; */
+  top: 125px;
+  left: 750px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.logo2 {
+	text-indent:00px;
+	position: absolute;  /* подробнее про position: absolute; */
+  top: 650px;
+  left: 400px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.container {
+	/*background: #999;*/
+	display:inline-block;
+	width:850px;
+	height:auto;
+	margin: 0px 400px;
+	/*min-width:350px; max-width: 500px */
+}
+.container-inner {
+	/*background: #ccc; */
+	display: inline-block;
+	position:relative;
+	width:180px;
+	height:auto;
+	margin: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	vertical-align:top;
+}
+.cost {
+	 display:inline-block;
+    position:absolute;
+    top:0px;   
+    left:0px;
+     
+    /* Оформление текста */
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px; 
+     
+    /* Фон */
+    background-color:gold;
+    padding:5px 10px;
+	
+}
+.gram {
+	 display:inline-block;
+    position:absolute;
+    top:157px;   
+    left:136px;
+     
+    /* Оформление текста */
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px; 
+     
+    /* Фон */
+    background-color:gold;
+    padding:3px 3px;
+	
+}
+.gramsandv {
+	 display:inline-block;
+    position:absolute;
+    top:100px;   
+    left:137px;
+     
+    /* Оформление текста */
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px; 
+     
+    /* Фон */
+    background-color:gold;
+    padding:3px 3px;
+	
+}
+.gramkg {
+	 display:inline-block;
+    position:absolute;
+    top:157px;   
+    left:132px;
+     
+    /* Оформление текста */
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px; 
+     
+    /* Фон */
+    background-color:gold;
+    padding:3px 3px;
+	
+}
+.gramsalat {
+	 display:inline-block;
+    position:absolute;
+    top:115px;   
+    left:137px;
+     
+    /* Оформление текста */
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px; 
+     
+    /* Фон */
+    background-color:gold;
+    padding:3px 3px;
+	
+}
+.gramkril {
+	 display:inline-block;
+    position:absolute;
+    top:100px;   
+    left:137px;
+     
+    /* Оформление текста */
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px; 
+     
+    /* Фон */
+    background-color:gold;
+    padding:3px 3px;
+	
+}
+.gramvasabil {
+	 display:inline-block;
+    position:absolute;
+    top:170px;   
+    left:145px;
+     
+    /* Оформление текста */
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px; 
+     
+    /* Фон */
+    background-color:gold;
+    padding:3px 3px;
+	
+}
+.gramsous {
+	 display:inline-block;
+    position:absolute;
+    top:157px;   
+    left:145px;
+     
+    /* Оформление текста */
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px; 
+     
+    /* Фон */
+    background-color:gold;
+    padding:3px 3px;
+	
+}
+.name {
+	font-size:18px;
+	color:#555;
+	vertical-align:5px;
+}
+body {	
+	background: url("background.jpg") no-repeat;
+	background-size: 634px 1000px;
+	background-position:100% 0%;
+}
+#nav {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border-radius: 20px 5px;
+	width: 800px;
+	text-align: center
+}
+#nav li { display: inline; }
+#nav li a {
+  color: gray;
+  padding: 0px 10px;
+  text-decoration: none;
+  display: inline-block;
+  width: auto;
+  font-size: 20px;
+}
+#nav li a:hover {
+ border-radius: 20px 5px;
+ color: black; 
+}
+.wok {
+	color:orange;
+}
+.search-bar {
+	position:absolute;
+	top:1627px;
+	left:1250px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:gray;
+	margin-top:20px;
+	white-space:pre;
+	
+}
+.lupa {
+	position:absolute;
+	margin-top:10px;
+
+}
+.search-bars {
+	position:absolute;
+	margin-left:25px;
+	height:20px;
+	border-radius: 0px solid;
+	border-color:#gray;
+	margin-top:10px;
+}
+.info {
+	/*background: #999;*/
+	display:inline-block;
+	width:1200px;
+	height:auto;
+	margin: 600px 350px;
+	margin-bottom: 50px;
+	/*min-width:350px; max-width: 500px */
+}
+.info-inner {
+	/*background: #ccc;*/
+	display: inline-block;
+	position:relative;
+	width:300px;
+	height:auto;
+	margin: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	vertical-align:top;
+}
+
+.nameinfo {
+	font-size:20px;
+	color: #555;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+.infoinfo {
+	font-size:17px;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+.h1 {
+	color:#555;
+	font-size:35px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.info-inner-inner {
+	font-family:Arial, Helvetica, sans-serif;
+	/*background: #ccc;*/
+	display: inline-block;
+	position:relative;
+	width:250px;
+	height:autopx;
+	margin: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	vertical-align:top;
+}
+.social {
+	background: #999;
+	width: 260px;
+	height: 695px;
+	position:absolute;
+	left:1250px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:gray;
+	margin-top:100px;
+}
